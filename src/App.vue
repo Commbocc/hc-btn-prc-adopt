@@ -1,23 +1,26 @@
 <template>
-  <a href="https://public-solutions.hillsboroughcounty.org/enterprise/f?p=236:1::::::" class="btn btn-info btn-block btn-wrap hc-btn-prc-adopt" target="_blank">
-
-    <div class="row align-items-center justify-content-center text-white text-center">
-      <div class="col-lg-6 order-lg-2">
-        <img src="https://mccarthyk.github.io/hc-prc/prc-adopt-white.png" class="img-fluid">
-      </div>
-      <div class="col-lg-3 order-lg-1 lead">
-        Search Pet Resource Center's Online Kennel
-      </div>
-      <div class="col-lg-3 order-lg-3 lead">
-        Full Online Access to PRC Pets
-      </div>
+  <div class="card">
+    <a :href="link" target="_blank">
+      <img src="https://commbocc.github.io/hc-btn-prc-adopt/public/adopt.jpg" alt="Adopt at Pet Resource Center's Online Kennel" class="card-img">
+    </a>
+    <div class="bg-secondary text-center p-3">
+      <a :href="link" class="btn btn-warning btn-lg btn-wrap" target="_blank">
+        <strong>
+          Search Pet Resource Center's Online Kennel
+        </strong>
+      </a>
     </div>
-
-  </a>
+  </div>
 </template>
 
 <script>
 export default {
+  props: {
+    link: {
+      type: String,
+      default: 'https://public-solutions.hillsboroughcounty.org/enterprise/f?p=236:1::::::'
+    }
+  }
 }
 </script>
 
