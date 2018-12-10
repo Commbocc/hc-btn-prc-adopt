@@ -1,5 +1,5 @@
 <template>
-  <a href="#" class="btn btn-info btn-block btn-wrap hc-btn-prc-adopt">
+  <a href="https://solutions.hillsboroughcounty.org/enterprise/f?p=236:11:::NO:RP::" class="btn btn-info btn-block btn-wrap hc-btn-prc-adopt" target="_blank">
 
     <div class="row align-items-center justify-content-center text-white text-center">
       <div class="col-lg-6 order-lg-2">
