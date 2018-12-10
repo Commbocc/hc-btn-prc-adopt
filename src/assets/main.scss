@@ -1,7 +1,21 @@
 // @import "~hc-html-wrapper/dist/static/css/app.css";
 
-#app {
-  // font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  // -webkit-font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
+@import "~hc-html-wrapper/src/sass/custom";
+@import "~hc-html-wrapper/src/sass/buttons";
+
+// @import "~bootstrap/scss/bootstrap";
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+//
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/utilities";
+
+.hc-btn-prc-adopt {
+
 }

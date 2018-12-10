@@ -1,33 +1,24 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
-  </div>
+  <a href="#" class="btn btn-info btn-block btn-wrap hc-btn-prc-adopt">
+
+    <div class="row align-items-center justify-content-center text-white text-center">
+      <div class="col-lg-6 order-lg-2">
+        <img src="https://mccarthyk.github.io/hc-prc/prc-adopt-white.png" class="img-fluid">
+      </div>
+      <div class="col-lg-3 order-lg-1 lead">
+        Search Pet Resource Center's Online Kennel
+      </div>
+      <div class="col-lg-3 order-lg-3 lead">
+        Full Online Access to PRC Pets
+      </div>
+    </div>
+
+  </a>
 </template>
 
 <script>
 export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
 }
 </script>
 
-<style src="./assets/main.scss" lang="scss"></style>
+<style scoped src="./assets/main.scss" lang="scss"></style>
