@@ -4,7 +4,7 @@
       <img src="https://commbocc.github.io/hc-btn-prc-adopt/public/adopt.jpg" alt="Adopt at Pet Resource Center's Online Kennel" class="card-img">
     </a>
     <div class="bg-secondary text-center p-3">
-      <a :href="link" class="btn btn-warning btn-lg btn-wrap" target="_blank">
+      <a :href="link" class="btn btn-warning btn-lg btn-wrap text-white hc-btn-prc-adopt" target="_blank">
         <strong>
           Search Pet Resource Center's Online Kennel
         </strong>
